@@ -4,16 +4,10 @@ import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
 export function TestimonialsInstructor() {
   const testimonials = [
     {
-      name: "Олена Ковальчук",
-      role: "Психолог, випускниця курсу 2023",
-      image: "https://images.unsplash.com/photo-1560073743-0a45c01b68c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHdvbWFuJTIwc21pbGluZyUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3Njk4NzU4NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      text: "Юлія створила таку атмосферу довіри, що я вперше в житті відкрилася повністю. Її здатність бачити суть, підтримувати і водночас ставити питання, які справді змінюють, – це дар. Кожне заняття було не просто навчанням, а справжньою терапією для мене самої.",
+      text: "«Прийшла з думкою, що в групі буду сидіти тихо, бо соромно показувати емоції. А потім побачила, як люди відкриваються — і нічого страшного не сталося. Навпаки, після кожної такої роботи в колі відчувала полегшення і більше контакту з собою. Тепер розумію: сором зменшується, коли його проживаєш разом.»",
       rating: 5
     },
     {
-      name: "Максим Шевченко",
-      role: "Гештальт-терапевт, студент 2 ступеня",
-      image: "https://images.unsplash.com/photo-1758518727888-ffa196002e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25maWRlbnQlMjB3b21hbiUyMGJ1c2luZXNzJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzY5ODc1ODYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       text: "Юлія не просто викладає теорію – вона показує все на власному прикладі. Її присутність, емпатія та професіоналізм створюють простір, де можна і вчитися, і трансформуватися. Вона бачить кожного студента і знає, як допомогти саме тобі розкритися.",
       rating: 5
     },

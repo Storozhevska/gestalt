@@ -48,18 +48,14 @@ export function Hero() {
                 >
                   Група ЧЕРНІВЦІ
                 </Button>
-              <Button
-  onClick={() => window.open(
-    "https://docs.google.com/forms/d/1Cj0ykRWanLopRCjUTBv7tERYPgdR1POf4DIakEehCYU/viewform?edit_requested=true",
-    "_blank"
-  )}
-  size="lg"
-  variant="outline"
-  className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 py-6 text-lg"
->
-  Група ONLINE
-</Button>
-
+                <Button
+                  onClick={scrollToFormats}
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 py-6 text-lg"
+                >
+                  Група ONLINE
+                </Button>
               </div>
             </div>
           </div>

@@ -49,15 +49,7 @@ export function InstructorPreview() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <div className="bg-purple-100 p-2 rounded-lg flex-shrink-0">
-                    <Users className="text-purple-600" size={24} />
-                  </div>
-                  <div>
-                    <p className="font-bold text-gray-900">630+ студентів</p>
-                    <p className="text-sm text-gray-600">Успішно випущено</p>
-                  </div>
-                </div>
+               
 
                 <div className="flex items-start gap-3">
                   <div className="bg-green-100 p-2 rounded-lg flex-shrink-0">
