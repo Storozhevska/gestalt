@@ -10,7 +10,7 @@ export function Footer() {
           </h3>
           <div className="flex justify-center gap-6">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/storozhevskie/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
@@ -19,7 +19,7 @@ export function Footer() {
               <Instagram size={28} />
             </a>
             <a
-              href="https://t.me"
+              href="https://t.me/yuliyastor"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
@@ -27,15 +27,7 @@ export function Footer() {
             >
               <Send size={28} />
             </a>
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
-              aria-label="Facebook"
-            >
-              <Facebook size={28} />
-            </a>
+            
           </div>
         </div>
 

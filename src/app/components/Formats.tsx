@@ -63,12 +63,16 @@ export function Formats() {
                 </div>
               </div>
 
-              <Button
-                onClick={scrollToHowToStart}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg"
-              >
-                Записатися на співбесіду
-              </Button>
+             <Button
+  onClick={() => window.open(
+    "https://docs.google.com/forms/d/1Cj0ykRWanLopRCjUTBv7tERYPgdR1POf4DIakEehCYU/viewform?edit_requested=true",
+    "_blank"
+  )}
+  className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg"
+>
+  Записатися на співбесіду
+</Button>
+
             </div>
           </div>
 
@@ -117,12 +121,16 @@ export function Formats() {
                 </div>
               </div>
 
-              <Button
-                onClick={scrollToHowToStart}
-                className="w-full bg-purple-600 hover:bg-purple-700 text-white py-6 text-lg"
-              >
-                Записатися на співбесіду
-              </Button>
+             <Button
+  onClick={() => window.open(
+    "https://docs.google.com/forms/d/1Cj0ykRWanLopRCjUTBv7tERYPgdR1POf4DIakEehCYU/viewform?edit_requested=true",
+    "_blank"
+  )}
+  className="w-full bg-purple-600 hover:bg-purple-700 text-white py-6 text-lg"
+>
+  Записатися на співбесіду
+</Button>
+
             </div>
           </div>
         </div>

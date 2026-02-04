@@ -132,9 +132,16 @@ export function TestimonialsResults() {
           <p className="text-lg text-gray-600 mb-6">
             Готові до власної трансформації?
           </p>
-          <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl font-semibold">
-            Почати навчання
-          </button>
+          <a
+  href="https://docs.google.com/forms/d/1Cj0ykRWanLopRCjUTBv7tERYPgdR1POf4DIakEehCYU/viewform?edit_requested=true"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl font-semibold">
+    Почати навчання
+  </button>
+</a>
+
         </div>
       </div>
     </section>
