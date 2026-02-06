@@ -6,11 +6,14 @@ import { ProgramArchitecture } from "@/app/components/ProgramArchitecture";
 import { TargetAudience } from "@/app/components/TargetAudience";
 import { Formats } from "@/app/components/Formats";
 import { About } from "@/app/components/About";
+import { TestimonialsGraduates } from "@/app/components/TestimonialsGraduates";
 import { TestimonialsInstructor } from "@/app/components/TestimonialsInstructor";
 import { HowToStart } from "@/app/components/HowToStart";
 import { ProgramStructure } from "@/app/components/ProgramStructure";
 import { TestimonialsResults } from "@/app/components/TestimonialsResults";
 import { Footer } from "@/app/components/Footer";
+import { TestimonialsTransformation } from "@/app/components/TestimonialsTransformation";
+import { TestimonialsCarousel } from "@/app/components/TestimonialsCarousel";
 
 export default function App() {
   return (
@@ -18,7 +21,9 @@ export default function App() {
       <Hero />
       <InstructorPreview />
       <WhyNow />
+    <TestimonialsTransformation />
       <ChooseYourGoal />
+      <TestimonialsCarousel />
       <ProgramArchitecture />
       <TargetAudience />
       <Formats />
@@ -27,6 +32,7 @@ export default function App() {
       <HowToStart />
       <ProgramStructure />
       <TestimonialsResults />
+       <TestimonialsGraduates />
       <Footer />
     </div>
   );
