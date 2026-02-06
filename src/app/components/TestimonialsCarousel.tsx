@@ -127,7 +127,7 @@ export function TestimonialsCarousel() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
                 <a
-                  href="https://instagram.com/yuliiastorozhevska"
+                  href="https://www.instagram.com/storozhevskie"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all transform hover:scale-105 text-sm sm:text-base"
@@ -139,7 +139,7 @@ export function TestimonialsCarousel() {
                 </a>
                 <span className="text-gray-500 text-sm">або</span>
                 <a
-                  href="#interview"
+                  href="https://forms.gle/e5u9aWCiHooSC33r9"
                   className="inline-flex items-center gap-2 bg-white border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all text-sm sm:text-base"
                 >
                   Заповнити анкету

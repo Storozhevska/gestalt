@@ -6,7 +6,6 @@ import { ProgramArchitecture } from "@/app/components/ProgramArchitecture";
 import { TargetAudience } from "@/app/components/TargetAudience";
 import { Formats } from "@/app/components/Formats";
 import { About } from "@/app/components/About";
-import { TestimonialsGraduates } from "@/app/components/TestimonialsGraduates";
 import { TestimonialsInstructor } from "@/app/components/TestimonialsInstructor";
 import { HowToStart } from "@/app/components/HowToStart";
 import { ProgramStructure } from "@/app/components/ProgramStructure";
@@ -23,16 +22,16 @@ export default function App() {
       <WhyNow />
     <TestimonialsTransformation />
       <ChooseYourGoal />
-      <TestimonialsCarousel />
+      
       <ProgramArchitecture />
       <TargetAudience />
       <Formats />
       <About />
+      <TestimonialsCarousel />
       <TestimonialsInstructor />
       <HowToStart />
       <ProgramStructure />
       <TestimonialsResults />
-       <TestimonialsGraduates />
       <Footer />
     </div>
   );

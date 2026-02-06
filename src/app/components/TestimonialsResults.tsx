@@ -4,56 +4,56 @@ import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
 export function TestimonialsResults() {
   const testimonials = [
     {
-      name: "Марія Коваленко",
-      role: "Гештальт-терапевт, приватна практика",
-      image: "https://images.unsplash.com/photo-1560073743-0a45c01b68c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHdvbWFuJTIwc21pbGluZyUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3Njk4NzU4NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      text: "Після курсу відкрила приватну практику і вже працюю з 20 постійними клієнтами. Отримала сертифікат EAGT і впевнено консультую. Це не просто курс – це нове життя і нова професія!",
-      result: "20 клієнтів у практиці",
+      name: "Юлія",
+      role: "цікавив професійний ріст, але лякали 5 років навчання до сертифікації",
+      image: "/images/avatar.png",
+      text: "Проходячи програму поряд із Танею та Юлею, я здобула чутливість — і це для мене найцінніший досвід. Поруч із ними я могла бути собою. Мене приймали, не засуджували. Життя розділилося на До і Після. З великою вдячністю Тані та Юлі.",
+      result: "психолог, закінчила 2 ступінь",
       icon: TrendingUp,
       color: "blue"
     },
     {
-      name: "Віктор Сидоренко",
-      role: "Випускник курсу 2023",
-      image: "https://images.unsplash.com/photo-1758518727888-ffa196002e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25maWRlbnQlMjB3b21hbiUyMGJ1c2luZXNzJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzY5ODc1ODYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      text: "Навчання повністю змінило мої стосунки з партнером на 180 градусів. Тепер розумію свої емоції, можу їх називати і керувати ними. Це вплинуло не тільки на особисте життя, а й на роботу.",
-      result: "Трансформація особистості",
+      
+      role: "психолог, зайшла зі страхом, що не потягне матеріально",
+      image: "/images/avatar.png",
+      text: "Якщо є інтерес, але водночас і страх - це вже хороший знак. Це означає, що тема жива. Можна дати собі дозвіл просто спробувати - не зобов’язуючи себе на роки вперед. Зробити перший крок, а вже потім вирішити, чи це тобі підходить.",
+      result: "Випускниця 2 ступеня",
       icon: Heart,
       color: "purple"
     },
     {
-      name: "Тетяна Левченко",
-      role: "Психолог, супервізор",
-      image: "https://images.unsplash.com/photo-1725370997666-eb3b199dfd91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXR1cmUlMjB3b21hbiUyMHByb2Zlc3Npb25hbCUyMHRoZXJhcGlzdHxlbnwxfHx8fDE3Njk4NzU4NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      text: "Курс дав практичні інструменти роботи з депресією, травмою та залежностями. Зараз веду групові та індивідуальні сесії, а також стала супервізором для молодих терапевтів.",
-      result: "Кар'єра супервізора",
+      name: "Людмила",
+      role: "для себе, заходила зі страхом перед публічним виступом (розмовою).",
+      image: "/images/avatar.png",
+      text: "Кожна людина обирає свій шлях. Можна жити в «матриці» - світі ілюзій та обмежень. А можна обрати шлях, де тебе навчать діяти, приймати рішення, брати відповідальність за свої вчинки та життя. Якщо хочеш знайти ресурс, відчути внутрішню рівновагу - зроби цей крок і поринь у чудовий всесвіт знань «про себе» разом із чуйною, емпатичною гештальт-терапевткою, тренером МІГІС Юлією Сторожевською.",
+      result: "закінчила 2 ступінь",
       icon: Sparkles,
       color: "green"
     },
     {
-      name: "Олександр Морозов",
-      role: "Випускник 2024",
-      image: "https://images.unsplash.com/photo-1652471949169-9c587e8898cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHdvbWFufGVufDF8fHx8MTc2OTgzMzg0NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      text: "Прожив і відпустив багаторічні блокування та страхи. Навчився будувати здорові межі з батьками та колегами. Відчуваю себе цілісною людиною вперше за багато років.",
-      result: "Особистісна цілісність",
+      name: "Анна",
+      role: "із запитом «відсутність власних кордонів",
+      image: "/images/avatar.png",
+      text: "Процес навчання в групі з іншими учнями та тренерами - це надзвичайний простір. Поруч із теорією одразу на прикладах та вправах розглядаються емоції, почуття, взаємодії, реакції. Це поле підтримки та прийняття тебе як особистості. Неймовірний процес і досвід!",
+      result: "закінчила 2 ступінь",
       icon: Heart,
       color: "pink"
     },
     {
-      name: "Наталія Бондаренко",
-      role: "Гештальт-терапевт",
-      image: "https://images.unsplash.com/photo-1739303987875-db274ba45b60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHN1Y2Nlc3MlMjBjZWxlYnJhdGlvbnxlbnwxfHx8fDE3Njk4NzU4NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      text: "Знайшла свій унікальний стиль роботи терапевта. Навчилася відокремлювати свої почуття від почуттів клієнта та витримувати сильні емоції. Моя мрія – допомагати людям – стала реальністю.",
-      result: "Знайшла стиль терапевта",
+      name: "Кріпак Валентин ",
+      role: "для себе",
+      image: "/images/avatar.png",
+      text: "Насправді я не знаю, з якої причини ви думаєте записатися на програму, і не знаю, чи допоможе це вам досягти ваших цілей. Але впевнений: ви отримаєте знання, які змусять подивитися на оточуючих людей по-іншому - як це сталося зі мною.",
+      result: "закінчив 2 ступінь ",
       icon: Sparkles,
       color: "orange"
     },
     {
-      name: "Дмитро Іваненко",
-      role: "Психолог, онлайн-практика",
-      image: "https://images.unsplash.com/photo-1733685318562-c726472bc1db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHRoZXJhcGlzdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2OTc3NDg5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      text: "Запустив онлайн-практику одразу після 1 ступеня. Маю стабільний дохід та постійних клієнтів з різних країн. Гештальт-терапія стала моєю професією та покликанням.",
-      result: "Онлайн-практика",
+      name: "Ілона Яковлєва",
+      role: "основним страхом було, що не вистачить грошей.",
+      image: "/images/avatar.png",
+      text: "У житті не буває випадковостей! Якщо гештальт - то Юля і Таня! Саме з ними твоя подорож буде цікавою!",
+      result: "психолог, закінчила програму 2 ступеня, ",
       icon: TrendingUp,
       color: "blue"
     }
@@ -73,14 +73,12 @@ export function TestimonialsResults() {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            Результати випускників
+             Поради випускників
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Реальні трансформації та успіхи
+            Якщо сумніваєшся — ось що кажуть<br />ті, хто теж боявся
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ваші можливості після завершення курсу
-          </p>
+         
         </div>
 
         {/* Testimonials Grid */}
@@ -133,7 +131,7 @@ export function TestimonialsResults() {
             Готові до власної трансформації?
           </p>
           <a
-  href="https://docs.google.com/forms/d/1Cj0ykRWanLopRCjUTBv7tERYPgdR1POf4DIakEehCYU/viewform?edit_requested=true"
+  href="https://forms.gle/e5u9aWCiHooSC33r9"
   target="_blank"
   rel="noopener noreferrer"
 >
