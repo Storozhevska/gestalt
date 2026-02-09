@@ -13,12 +13,17 @@ import { TestimonialsResults } from "@/app/components/TestimonialsResults";
 import { Footer } from "@/app/components/Footer";
 import { TestimonialsTransformation } from "@/app/components/TestimonialsTransformation";
 import { TestimonialsCarousel } from "@/app/components/TestimonialsCarousel";
+import { InstructorPreviewTetiana } from "@/app/components/InstructorPreviewTetiana";
+
+
+import { AboutOlena } from "@/app/components/AboutOlena";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
       <Hero />
       <InstructorPreview />
+       <InstructorPreviewTetiana />
       <WhyNow />
     <TestimonialsTransformation />
       <ChooseYourGoal />
@@ -27,6 +32,7 @@ export default function App() {
       <TargetAudience />
       <Formats />
       <About />
+      <AboutOlena />
       <TestimonialsCarousel />
       <TestimonialsInstructor />
       <HowToStart />
