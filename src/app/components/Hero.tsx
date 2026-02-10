@@ -15,7 +15,7 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Навчання гештальт-терапії з Юлією Сторожевською
+                Навчання гештальт-терапії   <br />I ступінь
               </h1>
               <p className="text-xl sm:text-2xl text-gray-700">
                 Від особистої глибини до міжнародного визнання
@@ -34,30 +34,7 @@ export function Hero() {
               </p>
             </div>
 
-            <div className="space-y-4">
-              <div className="flex items-center gap-2">
-                <MapPin className="text-blue-600" size={24} />
-                <h3 className="text-xl font-semibold text-gray-900">Оберіть свій старт:</h3>
-              </div>
-              
-              <div className="grid sm:grid-cols-2 gap-4">
-                <Button
-                  onClick={scrollToFormats}
-                  size="lg"
-                  className="bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg"
-                >
-                  Група ЧЕРНІВЦІ
-                </Button>
-                <Button
-                  onClick={scrollToFormats}
-                  size="lg"
-                  variant="outline"
-                  className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 py-6 text-lg"
-                >
-                  Група ONLINE
-                </Button>
-              </div>
-            </div>
+            
           </div>
 
           {/* <div className="relative">

@@ -34,7 +34,7 @@ export function InstructorPreview() {
               </h2>
               
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Сертифікований гештальт терапевт по стандартам EAGT. Моя місія - допомогти вам знайти опору в собі, віднайти власну силу й унікальність та побудувати легальний шлях у професію.
+                Психолог. Сертифікований гештальт терапевт, тренер.
               </p>
 
               {/* Key achievements */}
@@ -44,8 +44,8 @@ export function InstructorPreview() {
                     <Award className="text-blue-600" size={24} />
                   </div>
                   <div>
-                    <p className="font-bold text-gray-900">Сертифікат EAGT</p>
-                    <p className="text-sm text-gray-600">Міжнародне визнання</p>
+                    <p className="font-bold text-gray-900">MIGIS</p>
+                    <p className="text-sm text-gray-600">тренер та супервізор</p>
                   </div>
                 </div>
 

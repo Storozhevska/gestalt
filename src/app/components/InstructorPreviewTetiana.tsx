@@ -3,7 +3,7 @@ import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
 
 export function InstructorPreviewTetiana() {
   const scrollToAbout = () => {
-    const aboutSection = document.querySelector('#about-tetiana-section'); // або ваш id для секції "Про Тетяну"
+    const aboutSection = document.querySelector('#about-olena-section'); // або ваш id для секції "Про Тетяну"
     aboutSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -25,7 +25,7 @@ export function InstructorPreviewTetiana() {
             {/* Content */}
             <div className="p-8 lg:p-12">
               <div className="inline-block bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                Ваш провідник у світ гештальт-терапії
+                Керівник програми
               </div>
               
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -33,8 +33,7 @@ export function InstructorPreviewTetiana() {
               </h2>
               
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Провідний тренер MIGIS, сертифікований гештальт-терапевт та супервізор. Практичний психолог з 1993 року, в гештальт-терапії з 2008. Супроводжую в питаннях сім'ї, пар, психосоматики, харчової поведінки та глибокого самопізнання.
-              </p>
+Психолог, провідний тренер МІГІС, супервізор.              </p>
 
               {/* Key achievements */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
@@ -43,20 +42,12 @@ export function InstructorPreviewTetiana() {
                     <Award className="text-indigo-600" size={24} />
                   </div>
                   <div>
-                    <p className="font-bold text-gray-900">MIGIS & EAGT</p>
+                    <p className="font-bold text-gray-900">MIGIS</p>
                     <p className="text-sm text-gray-600">Провідний тренер та супервізор</p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <div className="bg-purple-100 p-2 rounded-lg flex-shrink-0">
-                    <Users className="text-purple-600" size={24} />
-                  </div>
-                  <div>
-                    <p className="font-bold text-gray-900">Сім'я та пари</p>
-                    <p className="text-sm text-gray-600">Спеціалізація</p>
-                  </div>
-                </div>
+            
 
                 <div className="flex items-start gap-3">
                   <div className="bg-green-100 p-2 rounded-lg flex-shrink-0">

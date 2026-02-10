@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import { AlertTriangle } from "lucide-react";
 
 interface Testimonial {
   before: string;
@@ -120,7 +121,15 @@ export function TestimonialsTransformation() {
             </div>
           ))}
         </div>
+<div className="mt-12 text-center">
+  <div className="flex items-center justify-center gap-2 mb-4">
+    <AlertTriangle className="text-yellow-500" size={28} />
+  </div>
 
+  <p className="text-lg text-gray-600 mb-6">
+    Відгуки, представлені на цій сторінці, надані випускниками добровільно та виключно після повного завершення навчання.
+  </p>
+</div>
         {/* Bottom CTA */}
         <div className="mt-16 text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 sm:p-12 rounded-2xl shadow-xl">
           <h3 className="text-2xl sm:text-3xl font-bold mb-4">

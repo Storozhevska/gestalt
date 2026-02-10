@@ -1,5 +1,6 @@
 import { Star, TrendingUp, Heart, Sparkles } from "lucide-react";
 import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
+import { AlertTriangle } from "lucide-react";
 
 export function TestimonialsResults() {
   const testimonials = [
@@ -124,6 +125,17 @@ export function TestimonialsResults() {
             );
           })}
         </div>
+
+  <div className="mt-12 text-center">
+  <div className="flex items-center justify-center gap-2 mb-4">
+    <AlertTriangle className="text-yellow-500" size={28} />
+  </div>
+
+  <p className="text-lg text-gray-600 mb-6">
+    Відгуки, представлені на цій сторінці, надані випускниками добровільно та виключно після повного завершення навчання.
+  </p>
+</div>
+
 
         {/* Bottom CTA */}
         <div className="mt-12 text-center">

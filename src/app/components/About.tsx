@@ -7,14 +7,14 @@ export function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Про Провідника у світ Гештальт-терапії
+            Про Провідника у світ Гештальт-терапії. 
           </h2>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              Юлія Сторожевська
+              Юлія Сторожевська ведуча I та II ступенів
             </h3>
             <p className="text-xl text-gray-700 mb-6">
               Психолог, сертифікований гештальт-терапевт, тренер МІГІС
@@ -28,7 +28,7 @@ export function About() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Сертифікація</h4>
                   <p className="text-gray-600">
-                    Сертифікований гештальт-терапевт за стандартами EAGT, Сертифікований супервізор за стандартами EAGT
+                    Сертифікований гештальт-терапевт, Сертифікований супервізор
                   </p>
                 </div>
               </div>

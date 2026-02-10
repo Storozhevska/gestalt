@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
+import { AlertTriangle } from "lucide-react";
 
 interface ArrowProps {
   onClick?: () => void;
@@ -138,16 +139,29 @@ export function TestimonialsCarousel() {
                   Написати в Instagram
                 </a>
                 <span className="text-gray-500 text-sm">або</span>
-                <a
-                  href="https://forms.gle/e5u9aWCiHooSC33r9"
-                  className="inline-flex items-center gap-2 bg-white border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all text-sm sm:text-base"
-                >
-                  Заповнити анкету
-                </a>
+           <a
+  href="https://forms.gle/e5u9aWCiHooSC33r9"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 bg-white border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all text-sm sm:text-base"
+>
+  Заповнити анкету
+</a>
               </div>
             </div>
           </div>
         </div>
+<div className="mt-12 text-center">
+  <div className="flex items-center justify-center gap-2 mb-4">
+    <AlertTriangle className="text-yellow-500" size={28} />
+  </div>
+
+  <p className="text-lg text-gray-600 mb-6">
+    Відгуки, представлені на цій сторінці, надані випускниками добровільно та виключно після повного завершення навчання.
+  </p>
+</div>
+
+
       </div>
     </section>
   );
